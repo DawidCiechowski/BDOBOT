@@ -27,7 +27,9 @@ The bot works on a basic notion of sending information based on the command, whi
 ```
 
 All the bosses for that particular day, will be showcased, with next boss being highlighted. In Python the command uses asynchronous call to the server, which its connected to
-to send all the information. An example of Pythonic command for Discord bot would be:
+to send all the information. All the information regards the current bosses, are held within the JSON file, which is parsed and used ipon running the BOT command. 
+
+### An example of Pythonic command for Discord bot would be:
 
 ```
 @client.command()
@@ -41,4 +43,7 @@ and display accordingly.
 
 ### Currently available functions
 
-- `.b`
+- `.b` - display all the bosses, which are available today, highlighting the next available boss.
+- `.jutro` - display all the bosses, which will be available tomorrow.
+- `.nastepny` - display the next available boss.
+- `.komenda` - A funny command for messing with the friend, by sending back the picture of him, whenever the function has been invoked. 
