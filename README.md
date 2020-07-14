@@ -37,3 +37,8 @@ async def b(ctx):
 
 All the functions that are used by the bot are defined within bot_functions.py Every time the function is called, a software accesses given function, to send it back to the server 
 and display accordingly. 
+
+
+### Currently available functions
+
+- `.b`
